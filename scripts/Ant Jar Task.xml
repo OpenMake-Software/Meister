@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+  <Name>jar</Name> 
+  <Groups>
+   <GroupName>Flags</GroupName> 
+   <Flags>
+    <Flag>manifest="<manifest file>"</Flag>
+    <ShortDesc>The manifest file.  This can be any name ending with .mf</ShortDesc> 
+   </Flags>
+  </Groups>
+ </CompilerLinker>

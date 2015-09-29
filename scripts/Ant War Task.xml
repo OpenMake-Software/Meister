@@ -1,0 +1,9 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+  <Name>Ant War Task</Name> 
+  <Groups>
+   <GroupName>Flags</GroupName> 
+   <Flags>
+   </Flags>
+  </Groups>
+ </CompilerLinker>

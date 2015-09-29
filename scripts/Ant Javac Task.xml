@@ -1,0 +1,82 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+ <Name>Ant Javac Task</Name> 
+ <Groups>
+   <GroupName>Compiler</GroupName> 
+   <Flags>
+     <Flag>compiler=javac1.1</Flag> 
+     <ShortDesc>Sun or IBM JDK 1.1 javac.  You can set JDK11_HOME</ShortDesc>
+   </Flags>
+   <Flags>
+     <Flag>compiler=javac1.2</Flag> 
+     <ShortDesc>Sun or IBM JDK 1.2 javac.  You can set JDK12_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=javac1.3</Flag> 
+     <ShortDesc>Sun or IBM JDK 1.3 javac.  You can set JDK13_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=javac1.4</Flag> 
+     <ShortDesc>Sun or IBM JDK 1.4 javac.  You must set JDK14_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=jikes</Flag> 
+     <ShortDesc>IBM Jikes Compiler.  You must set JIKES_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=jvc</Flag> 
+     <ShortDesc>Command-Line Compiler from Microsoft's SDK for Java/Visual J++.  You must set JVC_HOME.</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=kjc</Flag> 
+     <ShortDesc>The Kopi compiler.  You can set KOPI_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>compiler=gcj</Flag>
+     <ShortDesc>The GNU gcc java compiler.  You can set GCJ_HOME</ShortDesc> 
+   </Flags>
+   <Flags>
+    <Flag>compiler=sj</Flag>
+    <ShortDesc>The Symantec java compiler.  You can set SJ_HOME.</ShortDesc> 
+   </Flags>
+   <Flags>
+    <Flag>compiler=com.myco.mycompiler</Flag>
+    <ShortDesc>A custom compiler class</ShortDesc> 
+   </Flags>
+ </Groups>
+ <Groups>
+   <GroupName>Task Attributes</GroupName> 
+   <Flags>
+     <Flag>deprecation="on"</Flag> 
+     <ShortDesc>Notify use of deprecated code</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>optimize="on"</Flag> 
+     <ShortDesc>Optimize</ShortDesc>
+   </Flags>
+   <Flags>
+      <Flag>optimize="on"</Flag> 
+      <ShortDesc>Optimize</ShortDesc>
+   </Flags>
+   <Flags>
+      <Flag>debug="on"</Flag> 
+      <ShortDesc>debug</ShortDesc>
+   </Flags>
+   <Flags>
+      <Flag>encoding="on"</Flag> 
+      <ShortDesc>Specify character encoding to be used.</ShortDesc> 
+   </Flags>
+   <Flags>
+     <Flag>target="1.1"</Flag> 
+     <ShortDesc>Generate class files specifically for a 1.1 version VM</ShortDesc>
+   </Flags>
+   <Flags>
+     <Flag>target="1.2"</Flag> 
+     <ShortDesc>Generate class files specifically for a 1.2 version VM</ShortDesc>
+   </Flags>
+   <Flags>
+     <Flag>nowarn="on"</Flag> 
+     <ShortDesc>Generate no warnings.</ShortDesc>
+   </Flags>
+ </Groups>
+ </CompilerLinker>

@@ -1,0 +1,145 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+ <Name>Javadoc 1.3</Name> 
+ <Groups>
+  <Group>General</Group>
+   <Flags>
+    <Flag>-overview &lt;file&gt;</Flag>
+    <ShortDesc>Read overview documentation from HTML file</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-public</Flag>
+    <ShortDesc>Show only public classes and members</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-protected</Flag>
+    <ShortDesc>Show protected/public classes and members (default)
+   <Flags>
+    <Flag>-package</Flag>
+    <ShortDesc>Show package/protected/public classes and members</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-private</Flag>
+    <ShortDesc>Show all classes and members</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-doclet &lt;class&gt;</Flag>
+    <ShortDesc>Generate output via alternate doclet</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-1.1</Flag>
+    <ShortDesc>Generate output using JDK 1.1 emulating doclet</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-verbose</Flag>
+    <ShortDesc>Output messages about what Javadoc is doing</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-locale &lt;name&gt;</Flag>
+    <ShortDesc>Locale to be used, e.g. en_US or en_US_WIN</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-encoding &lt;name&gt;</Flag>
+    <ShortDesc>Source file encoding name</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-J&lt;flag&gt;</Flag>
+    <ShortDesc>Pass &lt;flag&gt; directly to the runtime system</ShortDesc>
+   </Flags>
+</Groups>
+<Groups>
+ <Group>Standard Doclet</Group>
+   <Flags>
+    <Flag>-use</Flag>
+    <ShortDesc>Create class and package usage pages</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-version</Flag>
+    <ShortDesc>Include @version paragraphs</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-author</Flag>
+    <ShortDesc>Include @author paragraphs</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-splitindex</Flag>
+    <ShortDesc>Split index into one file per letter</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-windowtitle &lt;text&gt;</Flag>
+    <ShortDesc>Browser window title for the documenation</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-doctitle &lt;html-code&gt;</Flag>
+    <ShortDesc>Include title for the package index(first) page</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-header &lt;html-code&gt;</Flag>
+    <ShortDesc>Include header text for each page</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-footer &lt;html-code&gt;</Flag>
+    <ShortDesc>Include footer text for each page</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-bottom &lt;html-code&gt;</Flag>
+    <ShortDesc>Include bottom text for each page</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-link &lt;url&gt;</Flag>
+    <ShortDesc>Create links to javadoc output at &lt;url&gt;
+   <Flags>
+    <Flag>-linkoffline &lt;url&gt; &lt;url2&gt; Link to docs at &lt;url&gt; using package list at &lt;url2&gt;
+   <Flags>
+    <Flag>-group &lt;name&gt; &lt;p1&gt;:&lt;p2&gt;.. Group specified packages together in overview page</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-nodeprecated</Flag>
+    <ShortDesc>Do not include @deprecated information</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-nosince</Flag>
+    <ShortDesc>Do not include @since information</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-nodeprecatedlist</Flag>
+    <ShortDesc>Do not generate deprecated list</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-notree</Flag>
+    <ShortDesc>Do not generate class hierarchy</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-noindex</Flag>
+    <ShortDesc>Do not generate index</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-nohelp</Flag>
+    <ShortDesc>Do not generate help link</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-nonavbar</Flag>
+    <ShortDesc>Do not generate navigation bar</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-serialwarn</Flag>
+    <ShortDesc>Generate warning about @serial tag</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-charset &lt;charset&gt;</Flag>
+    <ShortDesc>Charset for cross-platform viewing of generated documentation.</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-helpfile &lt;file&gt;</Flag>
+    <ShortDesc>Include file that help link links to</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-stylesheetfile &lt;path&gt;</Flag>
+    <ShortDesc>File to change style of the generated documentation</ShortDesc>
+   </Flags>
+   <Flags>
+    <Flag>-docencoding &lt;name&gt;</Flag>
+    <ShortDesc>Output encoding name</ShortDesc>
+   </Flags>
+ </Groups>
+</CompilerLinker>

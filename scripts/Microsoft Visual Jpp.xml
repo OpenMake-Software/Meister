@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CompilerLinker><Name>Microsoft Visual Jpp</Name>
+<Groups>
+ <GroupName>Flags</GroupName>
+ <Flags>
+  <Flag>/debug</Flag>
+  <ShortDesc>Build release configuration</ShortDesc>
+ </Flags>
+ <Flags>
+  <Flag>/debug</Flag>
+  <ShortDesc>Build debug configuration</ShortDesc>
+ </Flags>
+</Groups>
+</CompilerLinker>

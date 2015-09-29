@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<BuildType><Version>6.3</Version><OperatingSystem>Solaris</OperatingSystem><Name>Yacc C File</Name><TaskType></TaskType><Description>Used to generate a C source file from a yacc source file when the C file needs to have a different name from the yacc file.
+
+There is also a Build Task under available tasks with the same rule that can be imported into any build service that compiles C code.</Description><FinalTargetExt>.c</FinalTargetExt><BuildTasks><Name>Precompile</Name><Description>This build service is used to generate a C source file from a yacc source file when the C file needs to have a different name from the yacc file.
+
+There is also a Build Task under available tasks with the same rule that can be imported into any build service that compiles C code.</Description><OptionGroups><GroupName>Build Task Options</GroupName><Type>1</Type></OptionGroups></BuildTasks><Rules><ParentBuildTask>Precompile</ParentBuildTask><TargetExt>.c</TargetExt><SourceExts>.y</SourceExts><NameFrom>Final Target</NameFrom><CompilerName>Yacc.sc</CompilerName><Makefile>Solaris</Makefile><ToDir>Final Target</ToDir><OptionGroup><GroupName>Rule Options</GroupName><Type>2</Type></OptionGroup></Rules></BuildType>

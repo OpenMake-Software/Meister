@@ -1,0 +1,13 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+  <Name>classpath</Name> 
+  <Groups>
+   <GroupName>Flags</GroupName> 
+   <Flags>
+    <Flag>order:jar1;jar2</Flag> 
+    <ShortDesc>Specify the parts of the classpath that should be in a particular order.  These will come first in the classpath.</ShortDesc> 
+    <Flag>directories</Flag> 
+    <ShortDesc>Add search path directories as well as .zip .jar and .properties files to the classpath</ShortDesc>
+   </Flags>
+  </Groups>
+ </CompilerLinker>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<CompilerLinker>
+ <Name>Microsoft VBC Compiler</Name>
+ <Groups>
+  <GroupName>Options</GroupName>
+   <Flags><Flag>/baseaddress</Flag><ShortDesc>Specifies the base address of a DLL.</ShortDesc></Flags>
+   <Flags><Flag>/bugreport</Flag><ShortDesc>Creates a file that contains information that makes it easy to report a bug.</ShortDesc></Flags>
+   <Flags><Flag>/debug</Flag><ShortDesc>Produces debugging information.</ShortDesc></Flags>
+   <Flags><Flag>/define</Flag><ShortDesc>Defines symbols for conditional compilation.</ShortDesc></Flags>
+   <Flags><Flag>/delaysign</Flag><ShortDesc>Specifies whether the assembly will be fully or partially signed.</ShortDesc></Flags>
+   <Flags><Flag>/imports</Flag><ShortDesc>Imports a namespace from a specified assembly.</ShortDesc></Flags>
+   <Flags><Flag>/keycontainer</Flag><ShortDesc>Specifies a key container name for a key pair to give an assembly a strong name.</ShortDesc></Flags>
+   <Flags><Flag>/keyfile</Flag><ShortDesc>Specifies a file containing a key or key pair to give an assembly a strong name.</ShortDesc></Flags>
+   <Flags><Flag>/main</Flag><ShortDesc>Specifies the class that contains the Sub Main procedure to use at startup.</ShortDesc></Flags>
+   <Flags><Flag>/netcf</Flag><ShortDesc>Sets the compiler to target the .NET Compact Framework.</ShortDesc></Flags>
+   <Flags><Flag>/nologo</Flag><ShortDesc>Suppresses compiler banner information.</ShortDesc></Flags>
+   <Flags><Flag>/nowarn</Flag><ShortDesc>Suppresses the compiler's ability to generate warnings.</ShortDesc></Flags>
+   <Flags><Flag>/optimize</Flag><ShortDesc>Enables/disables code optimization.</ShortDesc></Flags>
+   <Flags><Flag>/optioncompare</Flag><ShortDesc>Determines whether string comparisons should be binary or use locale-specific text semantics.</ShortDesc></Flags>
+   <Flags><Flag>/optionexplicit</Flag><ShortDesc>Requires explicit declaration of variables.</ShortDesc></Flags>
+   <Flags><Flag>/optionstrict</Flag><ShortDesc>Enforces strict language semantics.</ShortDesc></Flags>
+   <Flags><Flag>/quiet</Flag><ShortDesc>Prevents the compiler from displaying code for syntax-related errors and warnings.</ShortDesc></Flags>
+   <Flags><Flag>/reference</Flag><ShortDesc>Imports metadata from an assembly.</ShortDesc></Flags>
+   <Flags><Flag>/removeintchecks</Flag><ShortDesc>Disables integer overflow checking.</ShortDesc></Flags>
+   <Flags><Flag>/rootnamespace</Flag><ShortDesc>Specifies a namespace for all type declarations.</ShortDesc></Flags>
+   <Flags><Flag>/utf8output</Flag><ShortDesc>Displays compiler output using UTF-8 encoding.</ShortDesc></Flags>
+   <Flags><Flag>/verbose</Flag><ShortDesc>Outputs extra information during compilation.</ShortDesc></Flags>
+   <Flags><Flag>/warnaserror</Flag><ShortDesc>Promotes warnings to errors.</ShortDesc></Flags>
+ </Groups>
+</CompilerLinker>

@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<BuildType>
+   <Version>6.3</Version>
+   <OperatingSystem>Linux</OperatingSystem>
+   <Name>Executable</Name>
+   <Description>Creates an executable target from .c code using the gcc compiler. It is broken into two tasks; Compile and Link. The Compile Build Task converts source code to .o object files. The Link Task links .o object files and libraries to create the Final Target executable.</Description>
+   <FinalTargetExt>.noext</FinalTargetExt>
+   <BuildTasks>
+      <Name>Compile</Name>
+      <Description>The Compile Build Task converts C source code to .o object files by calling the gcc compiler.</Description>
+      <OptionGroups>
+         <GroupName>Build Task Options</GroupName>
+         <Type>1</Type>
+      </OptionGroups>
+   </BuildTasks>
+   <BuildTasks>
+      <Name>Link</Name>
+      <Description>The Link task links .o object files and libraries together to create the Final Target Executable. The Link Build Task calls the linker in gcc.</Description>
+      <OptionGroups>
+         <GroupName>Build Task Options</GroupName>
+         <Type>1</Type>
+      </OptionGroups>
+   </BuildTasks>
+   <Rules>
+      <ParentBuildTask>Compile</ParentBuildTask>
+      <TargetExt>.o</TargetExt>
+      <SourceExts>.c .h</SourceExts>
+      <NameFrom>.c</NameFrom>
+      <CompilerName>GNU gcc Compiler.sc</CompilerName>
+      <Makefile>Linux</Makefile>
+      <ToDir>Intermediate</ToDir>
+      <OptionGroup>
+         <GroupName>Rule Options</GroupName>
+         <Type>2</Type>
+         <Options>
+            <Flag>gcc</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>$(BLD_OPTIONS_A)</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-g</Flag>
+            <Type>17</Type>
+         </Options>
+      </OptionGroup>
+   </Rules>
+   <Rules>
+      <ParentBuildTask>Compile</ParentBuildTask>
+      <TargetExt>.o</TargetExt>
+      <SourceExts>.cc .h</SourceExts>
+      <NameFrom>.cc</NameFrom>
+      <CompilerName>GNU gcc Compiler.sc</CompilerName>
+      <Makefile>Linux</Makefile>
+      <ToDir>Intermediate</ToDir>
+      <OptionGroup>
+         <GroupName>Rule Options</GroupName>
+         <Type>2</Type>
+         <Options>
+            <Flag>g++</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>$(BLD_OPTIONS_A)</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-g</Flag>
+            <Type>17</Type>
+         </Options>
+      </OptionGroup>
+   </Rules>
+   <Rules>
+      <ParentBuildTask>Compile</ParentBuildTask>
+      <TargetExt>.o</TargetExt>
+      <SourceExts>.cpp .h</SourceExts>
+      <NameFrom>.cpp</NameFrom>
+      <CompilerName>GNU gcc Compiler.sc</CompilerName>
+      <Makefile>Linux</Makefile>
+      <ToDir>Intermediate</ToDir>
+      <OptionGroup>
+         <GroupName>Rule Options</GroupName>
+         <Type>2</Type>
+         <Options>
+            <Flag>g++</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>$(BLD_OPTIONS_A)</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-g</Flag>
+            <Type>17</Type>
+         </Options>
+      </OptionGroup>
+   </Rules>
+   <Rules>
+      <ParentBuildTask>Compile</ParentBuildTask>
+      <TargetExt>.o</TargetExt>
+      <SourceExts>.cxx .h</SourceExts>
+      <NameFrom>.cxx</NameFrom>
+      <CompilerName>GNU gcc Compiler.sc</CompilerName>
+      <Makefile>Linux</Makefile>
+      <ToDir>Intermediate</ToDir>
+      <OptionGroup>
+         <GroupName>Rule Options</GroupName>
+         <Type>2</Type>
+         <Options>
+            <Flag>g++</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>$(BLD_OPTIONS_A)</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-g</Flag>
+            <Type>17</Type>
+         </Options>
+      </OptionGroup>
+   </Rules>
+   <Rules>
+      <ParentBuildTask>Link</ParentBuildTask>
+      <TargetExt>.noext</TargetExt>
+      <SourceExts>.a .aor .o .so</SourceExts>
+      <NameFrom>Final Target</NameFrom>
+      <CompilerName>GNU gcc Linker.sc</CompilerName>
+      <Makefile>Linux</Makefile>
+      <ToDir>Final Target</ToDir>
+      <OptionGroup>
+         <GroupName>Rule Options</GroupName>
+         <Type>2</Type>
+         <Options>
+            <Flag>gcc</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-L$OPENWINHOME/lib</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-L$MOTIFHOME/lib</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-L/usr/lib</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>$(BLD_OPTIONS_C)</Flag>
+            <Type>25</Type>
+         </Options>
+         <Options>
+            <Flag>-g</Flag>
+            <Type>17</Type>
+         </Options>
+      </OptionGroup>
+   </Rules>
+</BuildType>

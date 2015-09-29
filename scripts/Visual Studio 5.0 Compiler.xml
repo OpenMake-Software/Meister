@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<CompilerLinker>
+    <Name>Visual Studio 5.0 Compiler</Name>
+    <Groups>
+        <GroupName>OPTIMIZATION</GroupName>
+        <Flags>
+            <Flag>/O1</Flag>
+            <ShortDesc>minimize space</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Op[-]</Flag>
+            <ShortDesc>improve floating-pt consistency</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/O2</Flag>
+            <ShortDesc>maximize speed</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Os</Flag>
+            <ShortDesc>favor code space</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Oa</Flag>
+            <ShortDesc>assume no aliasing</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ot</Flag>
+            <ShortDesc>favor code speed</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ob[n]</Flag>
+            <ShortDesc>inline expansion (default n=0)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ow</Flag>
+            <ShortDesc>assume cross-function aliasing</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Od</Flag>
+            <ShortDesc>disable optimizations (default)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ox</Flag>
+            <ShortDesc>maximum opts. (/Ogityb1 /Gs)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Og</Flag>
+            <ShortDesc>enable global optimization</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Oy[-]</Flag>
+            <ShortDesc>enable frame pointer omission</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Oi</Flag>
+            <ShortDesc>enable intrinsic functions</ShortDesc>
+        </Flags>
+    </Groups>
+    <Groups>
+        <GroupName>CODE GENERATION</GroupName>
+        <Flags>
+            <Flag>/G3</Flag>
+            <ShortDesc>optimize for 80386</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/G4</Flag>
+            <ShortDesc>optimize for 80486</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/G5</Flag>
+            <ShortDesc>optimize for Pentium</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/G6</Flag>
+            <ShortDesc>optimize for Pentium Pro</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GB</Flag>
+            <ShortDesc>optimize for blended model (default)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gd</Flag>
+            <ShortDesc>__cdecl calling convention</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gr</Flag>
+            <ShortDesc>__fastcall calling convention</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gz</Flag>
+            <ShortDesc>__stdcall calling convention</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GA</Flag>
+            <ShortDesc>optimize for Windows Application</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GD</Flag>
+            <ShortDesc>optimize for Windows DLL</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gf</Flag>
+            <ShortDesc>enable string pooling</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GF</Flag>
+            <ShortDesc>enable read-only string pooling</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GZ</Flag>
+            <ShortDesc>enable runtime debug checks</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gy</Flag>
+            <ShortDesc>separate functions for linker</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ge</Flag>
+            <ShortDesc>force stack checking for all funcs</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gs[num]</Flag>
+            <ShortDesc>disable stack checking calls</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gh</Flag>
+            <ShortDesc>enable hook function call</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GR[-]</Flag>
+            <ShortDesc>enable C++ RTTI</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/GX[-]</Flag>
+            <ShortDesc>enable C++ EH (same as /EHsc)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gi[-]</Flag>
+            <ShortDesc>enable incremental compilation</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Gm[-]</Flag>
+            <ShortDesc>enable minimal rebuild</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/EHs</Flag>
+            <ShortDesc>enable synchronous C++ EH</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/EHa</Flag>
+            <ShortDesc>enable asynchronous C++ EH</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/EHc</Flag>
+            <ShortDesc>extern &quot;C&quot; defaults to nothrow</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/QIfdiv[-]</Flag>
+            <ShortDesc>enable Pentium FDIV fix</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/QI0f[-]</Flag>
+            <ShortDesc>enable Pentium 0x0f fix</ShortDesc>
+        </Flags>
+    </Groups>
+    <Groups>
+        <GroupName>PREPROCESSOR</GroupName>
+        <Flags>
+            <Flag>/C</Flag>
+            <ShortDesc>don&apos;t strip comments</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/D[name]</Flag>
+            <ShortDesc>define macro</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/E</Flag>
+            <ShortDesc>preprocess to stdout</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/EP</Flag>
+            <ShortDesc>preprocess to stdout, no #line</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/P</Flag>
+            <ShortDesc>preprocess to file</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/FI[file]</Flag>
+            <ShortDesc>name forced include file</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/U[name]</Flag>
+            <ShortDesc>remove predefined macro</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/u</Flag>
+            <ShortDesc>remove all predefined macros</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/X</Flag>
+            <ShortDesc>ignore &quot;standard places&quot;</ShortDesc>
+        </Flags>
+    </Groups>
+    <Groups>
+        <GroupName>LANGUAGE</GroupName>
+        <Flags>
+            <Flag>/Zi</Flag>
+            <ShortDesc>enable debugging information</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/ZI</Flag>
+            <ShortDesc>enable Edit and Continue debug info</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Z7</Flag>
+            <ShortDesc>enable old-style debug info</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zd</Flag>
+            <ShortDesc>line number debugging info only</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zp[n]</Flag>
+            <ShortDesc>pack structs on n-byte boundary</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Za</Flag>
+            <ShortDesc>disable extensions (implies /Op)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Ze</Flag>
+            <ShortDesc>enable extensions (default)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zl</Flag>
+            <ShortDesc>omit default library name in .OBJ</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zg</Flag>
+            <ShortDesc>generate function prototypes</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zs</Flag>
+            <ShortDesc>syntax check only</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/vd{0|1}</Flag>
+            <ShortDesc>disable/enable vtordisp</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/vm[x]</Flag>
+            <ShortDesc>type of pointers to members</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/noBool</Flag>
+            <ShortDesc>disable &quot;bool&quot; keyword</ShortDesc>
+        </Flags>
+    </Groups>
+    <Groups>
+        <GroupName>MISCELLANEOUS</GroupName>
+        <Flags>
+            <Flag>/H[num]</Flag>
+            <ShortDesc>max external name length</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/J</Flag>
+            <ShortDesc>default char type is unsigned</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/nologo</Flag>
+            <ShortDesc>suppress copyright message</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Tc[source file]</Flag>
+            <ShortDesc>compile file as .c</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Tp[source file]</Flag>
+            <ShortDesc>compile file as .cpp</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/TC</Flag>
+            <ShortDesc>compile all files as .c</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/TP</Flag>
+            <ShortDesc>compile all files as .cpp</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/V[string]</Flag>
+            <ShortDesc>set version string</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/w</Flag>
+            <ShortDesc>disable all warnings</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/W[n]</Flag>
+            <ShortDesc>set warning level (default n=1)</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/WX</Flag>
+            <ShortDesc>treat warnings as errors</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Yd</Flag>
+            <ShortDesc>put debug info in every .OBJ</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Yu[file]</Flag>
+            <ShortDesc>use .PCH file</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/YX[file]</Flag>
+            <ShortDesc>automatic .PCH</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/Zm[n]</Flag>
+            <ShortDesc>max memory alloc (% of default)</ShortDesc>
+        </Flags>
+    </Groups>
+    <Groups>
+        <GroupName>LINKING</GroupName>
+        <Flags>
+            <Flag>/MD</Flag>
+            <ShortDesc>link with MSVCRT.LIB</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/ML</Flag>
+            <ShortDesc>link with LIBC.LIB</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/MT</Flag>
+            <ShortDesc>link with LIBCMT.LIB</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/LD</Flag>
+            <ShortDesc>Create .DLL</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/LDd</Flag>
+            <ShortDesc>Create .DLL debug libary</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/MDd</Flag>
+            <ShortDesc>link with MSVCRTD.LIB debug lib</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/MLd</Flag>
+            <ShortDesc>link with LIBCD.LIB debug lib</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/MTd</Flag>
+            <ShortDesc>link with LIBCMTD.LIB debug lib</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/F[num]</Flag>
+            <ShortDesc>set stack size</ShortDesc>
+        </Flags>
+        <Flags>
+            <Flag>/link</Flag>
+            <ShortDesc>[linker options and libraries]</ShortDesc>
+        </Flags>
+    </Groups>
+</CompilerLinker>

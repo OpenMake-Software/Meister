@@ -1,0 +1,21 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+  <Name>Modern JDK Java Compiler</Name> 
+  <Groups>
+   <GroupName>Flags</GroupName> 
+   <Flags>
+    <Flag>-deprecation</Flag> 
+    <ShortDesc>Notify use of deprecated code</ShortDesc> 
+    <Flag>-O</Flag> 
+    <ShortDesc>Optimize</ShortDesc>
+    <Flag>-g</Flag> 
+    <ShortDesc>debug</ShortDesc>
+    <Flag>-encoding</Flag> 
+    <ShortDesc>Specify character encoding to be used.</ShortDesc> 
+    <Flag>-target &ltrelease&gt</Flag> 
+    <ShortDesc>Generate class files for a specific VM version</ShortDesc>
+    <Flag>-nowarn</Flag> 
+    <ShortDesc>Generate no warnings.</ShortDesc>
+   </Flags>
+  </Group>
+ </CompilerLinker>

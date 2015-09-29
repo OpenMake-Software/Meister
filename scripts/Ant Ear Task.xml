@@ -1,0 +1,11 @@
+<?xml version="1.0" ?> 
+ <CompilerLinker>
+  <Name>Ant Ear Task</Name> 
+  <Groups>
+   <GroupName>Attributes</GroupName> 
+   <Flags>
+    <Flag>excludes="pattern"</Flag>
+    <ShortDesc>A pattern, passed directly to Ant, of a set of files to exclude.</ShortDesc>
+   </Flags>
+  </Groups>
+ </CompilerLinker>
