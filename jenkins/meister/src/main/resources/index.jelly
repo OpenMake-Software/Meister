@@ -1,0 +1,7 @@
+<?jelly escape-by-default='true'?>
+<!--
+  This view is used to render the installed plugins page.
+-->
+<div>
+  This OpenMake Meister plugin will execute a Meister Workflow and display the results inside of Jenkins.
+</div>
