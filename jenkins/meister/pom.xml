@@ -17,7 +17,7 @@
 
   <name>OpenMake Meister</name>
   <description>OpenMake Meister Jenkins Plugin that enables Jenkins to run Meister Workflows with the results being visible in Jenkins.</description>
-  <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
+  <url>http://www.openmakesoftware.com</url>
   <licenses>
     <license>
       <name>MIT License</name>
