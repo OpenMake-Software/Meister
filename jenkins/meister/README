@@ -7,4 +7,9 @@ OpenMake Meister can improve the functionality of any Continuous Integration pro
 less risky releases. Meister supports over 200 languages including Java, .Net, C, C++, and database objects.
 
 The Meister Jenkins Plugin will enable Jenkins to interact with OpenMake Meister Workflows.  This interaction extends Jenkins to perform Builds on Remote Server 
-Pools that include Load Balancing and on-demand provisioning.
+Pools that include Load Balancing and on-demand provisioning.  See https://github.com/jenkinsci/meister-plugin.  
+
+
+
+
+
